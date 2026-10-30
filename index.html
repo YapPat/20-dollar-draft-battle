@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$20 Draft Battle – The $20 Draft Party Game</title>
+<meta name="description" content="Play the viral $20 draft with a friend on one phone. Bid on 312 categories, build the best roster, then argue about who won.">
+<link rel="icon" href="images/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #16130E; --text: #F8F4EC; --muted: rgba(248,244,236,.65); --accent: #C9F03C; --line: rgba(248,244,236,.14); }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 18px/1.6 "DM Sans", -apple-system, sans-serif; }
+  main, footer { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  .hero { text-align: center; padding: 64px 0 40px; }
+  .hero img { width: 104px; height: 104px; border-radius: 24px; }
+  h1, h2 { font-family: "Bricolage Grotesque", sans-serif; letter-spacing: -.02em; line-height: 1.05; }
+  h1 { font-size: clamp(44px, 9vw, 80px); margin: 22px 0 10px; }
+  .hook { color: var(--accent); font-family: "Bricolage Grotesque", sans-serif; font-size: clamp(24px, 4.5vw, 36px); line-height: 1.15; margin: 0; }
+  .lead { color: var(--muted); max-width: 580px; margin: 18px auto 0; }
+  .soon { display: inline-block; margin-top: 24px; border: 1px solid var(--line); border-radius: 999px; padding: 8px 18px; font-weight: 700; font-size: 15px; }
+  .shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0 56px; }
+  .shots img { width: 100%; height: auto; display: block; border-radius: 18px; border: 1px solid var(--line); }
+  h2 { font-size: 34px; margin: 0 0 18px; }
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 64px; padding: 0; list-style: none; }
+  .steps li { border: 1px solid var(--line); border-radius: 18px; padding: 20px; color: var(--muted); }
+  .steps strong { display: block; color: var(--text); margin-bottom: 4px; }
+  footer { border-top: 1px solid var(--line); padding-top: 22px; padding-bottom: 40px; display: flex; gap: 20px; flex-wrap: wrap; font-size: 15px; color: var(--muted); }
+  a { color: inherit; }
+  @media (max-width: 680px) { .shots { grid-template-columns: 1fr; max-width: 340px; margin-left: auto; margin-right: auto; } .steps { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <img src="images/icon.png" alt="$20 Draft Battle app icon">
+    <h1>$20 Draft Battle</h1>
+    <p class="hook">The viral $20 draft game.</p>
+    <p class="lead">Two players, one phone, $20 each. Bid on 312 categories, build the best roster before your money runs out, then argue about who drafted better.</p>
+    <span class="soon">Coming soon to the App Store and Google Play</span>
+  </section>
+  <section class="shots" aria-label="App screenshots">
+    <img src="images/bidding.png" alt="Bidding on an item in a draft" loading="lazy">
+    <img src="images/main-page.png" alt="The main page with categories" loading="lazy">
+    <img src="images/sold.png" alt="An item stamped sold" loading="lazy">
+  </section>
+  <h2>How it works</h2>
+  <ul class="steps">
+    <li><strong>Pick a category</strong>Food, cars, anime, sports, holidays and hundreds more.</li>
+    <li><strong>Raise or pass</strong>Items come up one at a time. Go all in or save your money.</li>
+    <li><strong>Argue about who won</strong>Compare rosters, vote on the winner, then hit Rematch.</li>
+  </ul>
+</main>
+<footer>
+  <a href="support/">Support</a>
+  <a href="privacy/">Privacy Policy</a>
+</footer>
+</body>
+</html>
